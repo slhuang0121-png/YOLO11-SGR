@@ -1,0 +1,27 @@
+{
+  "purpose": "Evaluator software parity; synthetic fixture metrics are excluded from research results",
+  "passed": true,
+  "source_commit": "005445782213e20cb91bc50a597db3dd949e749a",
+  "source_archive_sha256": "af4aea7b5b35353819cffd1586a2e51cb0abfb5b1ce74697480cda97dc07dbf6",
+  "python_evaluator_sha256": "2e0aae0c0d08860e6e291bf9ae1331bd43ea843db037a06d86e11a88b6de403e",
+  "fixture_sha256": "0611bfe09c949ada65796c01212c2bce3ad49de14f46a4e6c03f90bc16b34b5a",
+  "scenarios": 10,
+  "image_cases": 46,
+  "matching_cases": 20,
+  "ignored_region_filtered_arrays_exact": true,
+  "matching_scores_and_flags_exact": true,
+  "maximum_absolute_metric_difference": 8.326672684688674e-16,
+  "tolerance": 1e-12,
+  "engine": "Unmodified published MATLAB functions executed in GNU Octave",
+  "compatibility_helper": "mean2(input)=mean(input(:)); no evaluator algorithm modifications",
+  "coverage": [
+    "score ties",
+    "duplicate detections",
+    "repeated ignored-GT matching",
+    "empty image GT",
+    "pixel-integral ignored areas",
+    "global 500-detection cap",
+    "repeated class-image weighting",
+    "raw validation annotation geometry"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "C0_native11",
+    "selected_native_epoch": 46,
+    "completed_epochs": 50,
+    "best_SHA256": "426d6fd2357457cc57e61927b8f21b0c6607cd4c0227e7a3c7dd2a48aedd7dfd",
+    "metrics_SHA256": "40c407c984681e864f7ebba125ebb3ebe7d02d6b0cc7fd6e2267fc18d5307010",
+    "weights_file": "selected_models/C0_native11/best.pt"
+  },
+  {
+    "variant": "C1_append_P2",
+    "selected_native_epoch": 47,
+    "completed_epochs": 50,
+    "best_SHA256": "d9990388a5f8c01ec0b4d5d4bdc1457314391df5b709ff07a0e0ef918cbe415a",
+    "metrics_SHA256": "d843924442eca328f5b2c6416c4d7e0acc785b8caec13b20bcb4a6031cac3f55",
+    "weights_file": "selected_models/C1_append_P2/best.pt"
+  },
+  {
+    "variant": "C2_P2_selective_rank",
+    "selected_native_epoch": 43,
+    "completed_epochs": 50,
+    "best_SHA256": "5a8717d200fd9a73178913130682684788f42d04aa81e5ce061e44fa4a253977",
+    "metrics_SHA256": "075bb842743a977729f95a3bc8e01e0c7a0f4108d3b6c834bb7e6a40831d1fe5",
+    "weights_file": "selected_models/C2_P2_selective_rank/best.pt"
+  }
+]

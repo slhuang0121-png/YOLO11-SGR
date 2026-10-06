@@ -1,0 +1,46 @@
+{
+  "paper_title": "Tiny Person Detection in UAV Search and Rescue with Selective Geometric Ranking in YOLO11",
+  "source_images": 548,
+  "source_tiny_GT": 6335,
+  "source_all_GT": 13921,
+  "source_training_images": 6471,
+  "completed_epochs": 50,
+  "auxiliary_rescue_images": 1857,
+  "rows": [
+    {
+      "variant": "C0",
+      "selected_epoch": 46,
+      "COCO_AP_percent": 38.19,
+      "toolkit_AP_percent": 38.38,
+      "tiny_TP_at_primary_0_5": 1447,
+      "all_TP_at_primary_0_5": 5942,
+      "all_FP_at_primary_0_5": 271,
+      "tiny_TP_at_secondary_1": 1989,
+      "all_TP_at_secondary_1": 7041
+    },
+    {
+      "variant": "C1",
+      "selected_epoch": 47,
+      "COCO_AP_percent": 39.38,
+      "toolkit_AP_percent": 39.51,
+      "tiny_TP_at_primary_0_5": 1428,
+      "all_TP_at_primary_0_5": 5874,
+      "all_FP_at_primary_0_5": 274,
+      "tiny_TP_at_secondary_1": 2163,
+      "all_TP_at_secondary_1": 7237
+    },
+    {
+      "variant": "C2",
+      "selected_epoch": 43,
+      "COCO_AP_percent": 39.2,
+      "toolkit_AP_percent": 39.36,
+      "tiny_TP_at_primary_0_5": 1452,
+      "all_TP_at_primary_0_5": 5869,
+      "all_FP_at_primary_0_5": 274,
+      "tiny_TP_at_secondary_1": 2223,
+      "all_TP_at_secondary_1": 7286
+    }
+  ],
+  "tiny_definition": "sqrt(original bounding-box area) < 16 pixels",
+  "threshold_policy": "Each model source all-person cutoff is applied unchanged to all strata."
+}

@@ -1,0 +1,2 @@
+# Preserve the actual frozen bytes used for SHA256 provenance on every platform.
+* -text

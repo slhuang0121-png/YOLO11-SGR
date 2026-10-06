@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo11-sgr"
+version = "1.0.0"
+description = "YOLO11 P2 prediction and personnel-selective geometric ranking for tiny person detection"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = {text = "AGPL-3.0-or-later"}
+dependencies = ["numpy==1.26.4", "PyYAML>=6.0,<7", "Pillow>=10,<13", "opencv-python==4.10.0.84", "matplotlib>=3.8,<3.11", "pycocotools==2.0.11", "scipy>=1.11,<1.16", "psutil>=5.9,<8", "polars>=0.20,<2", "requests>=2.31,<3", "ultralytics-thop>=2.0,<3"]
+
+[project.urls]
+Repository = "https://github.com/slhuang0121-png/YOLO11-SGR"
+
+[project.scripts]
+yolo11-sgr = "yolo11_sgr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml", "*.yml", "*.json", "*.txt", "*.toml", "*.html", "*.sh", "*.css"]
+
