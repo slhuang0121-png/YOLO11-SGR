@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "yolo11-sgr"
-version = "1.0.0"
+version = "1.0.1"
 description = "YOLO11 P2 prediction and personnel-selective geometric ranking for tiny person detection"
 readme = "README.md"
 requires-python = ">=3.10,<3.12"
@@ -21,5 +21,4 @@ yolo11-sgr = "yolo11_sgr.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-"*" = ["*.yaml", "*.yml", "*.json", "*.txt", "*.toml", "*.html", "*.sh", "*.css"]
-
+"*" = ["*.yaml", "*.yml", "*.json", "*.txt", "*.toml", "*.html", "*.sh", "*.css", "*.jpg", "*.png"]

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this software when using the retained implementation."
 type: software
 title: "YOLO11-SGR: Tiny Person Detection with Selective Geometric Ranking"
-version: 1.0.0
+version: 1.0.1
 authors:
   - family-names: Zhang
     given-names: Yuexing

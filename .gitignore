@@ -15,10 +15,9 @@ dist/
 *.onnx
 *.engine
 *.zip
-datasets/
-runs/
-outputs/
+/datasets/
+/runs/
+/outputs/
 *.log
 .DS_Store
 Thumbs.db
-
